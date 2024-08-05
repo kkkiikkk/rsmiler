@@ -1,0 +1,2 @@
+class Productdsdsa < ApplicationRecord
+end

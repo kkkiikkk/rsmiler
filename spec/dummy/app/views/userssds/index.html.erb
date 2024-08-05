@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Userssds</h1>
+
+<div id="userssds">
+  <% @userssds.each do |userssd| %>
+    <%= render userssd %>
+    <p>
+      <%= link_to "Show this userssd", userssd %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New userssd", new_userssd_path %>

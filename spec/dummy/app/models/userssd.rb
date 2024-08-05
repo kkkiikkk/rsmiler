@@ -1,0 +1,2 @@
+class Userssd < ApplicationRecord
+end

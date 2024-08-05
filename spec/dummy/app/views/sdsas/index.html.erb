@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Sdsas</h1>
+
+<div id="sdsas">
+  <% @sdsas.each do |sdsa| %>
+    <%= render sdsa %>
+    <p>
+      <%= link_to "Show this sdsa", sdsa %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New sdsa", new_sdsa_path %>

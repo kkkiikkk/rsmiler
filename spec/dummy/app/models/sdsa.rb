@@ -1,0 +1,2 @@
+class Sdsa < ApplicationRecord
+end

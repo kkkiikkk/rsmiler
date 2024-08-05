@@ -1,0 +1,17 @@
+<%= form_with(model: productd) do |form| %>
+  <% if productd.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(productd.errors.count, "error") %> prohibited this productd from being saved:</h2>
+
+      <ul>
+        <% productd.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

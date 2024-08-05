@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @productd %>
+
+<div>
+  <%= link_to "Edit this productd", edit_productd_path(@productd) %> |
+  <%= link_to "Back to productds", productds_path %>
+
+  <%= button_to "Destroy this productd", @productd, method: :delete %>
+</div>
